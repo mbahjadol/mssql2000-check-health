@@ -15,10 +15,14 @@ $ docker run -d \
   mssql2000-health-check
 
 # Check
-curl http://localhost:8080/health
+$ curl http://localhost:8080/health
 
 # It will result OK with:
 {
     "result": 1,
     "status": "ok"
 }
+
+# Docker Images:
+build container image that ready to use can be pull at
+https://hub.docker.com/r/mbahjadol/mssql2000-health-check
