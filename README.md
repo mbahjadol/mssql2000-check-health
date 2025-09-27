@@ -2,7 +2,7 @@
 Check ancient MS SQL 2000 health in web service
 
 # Build
-$ docker build -t mssql2000-health-check .
+$ docker build -t mbahjadol/mssql2000-health-check .
 
 # Run
 $ docker run -d \
@@ -16,3 +16,9 @@ $ docker run -d \
 
 # Check
 curl http://localhost:8080/health
+
+# It will result OK with:
+{
+    "result": 1,
+    "status": "ok"
+}
