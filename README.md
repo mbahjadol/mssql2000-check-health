@@ -23,6 +23,6 @@ $ curl http://localhost:8080/health
     "status": "ok"
 }
 
-# Docker Images:
+# Docker Image:
 build container image that ready to use can be pull at
 https://hub.docker.com/r/mbahjadol/mssql2000-health-check
