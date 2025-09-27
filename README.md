@@ -23,6 +23,9 @@ $ curl http://localhost:8080/health
     "status": "ok"
 }
 
+# If not OK then:
+will response http status 500 or else
+
 # Docker Image:
 build container image that ready to use can be pull at
 https://hub.docker.com/r/mbahjadol/mssql2000-health-check
