@@ -2,10 +2,10 @@
 Check ancient MS SQL 2000 health in web service
 
 ### Build
-    $ docker build -t mbahjadol/mssql2000-health-check .
+    docker build -t mbahjadol/mssql2000-health-check .
 
 ### Run
-    $ docker run -d \
+    docker run -d \
     -e MSSQL_USER=sa \
     -e MSSQL_PASS=SuperSecret123 \
     -e MSSQL_HOST=192.168.1.100 \
@@ -15,7 +15,7 @@ Check ancient MS SQL 2000 health in web service
     mssql2000-health-check
 
 ### Check
-    $ curl http://localhost:8080/health
+    curl http://localhost:8080/health
 
 #### It will result OK with:
     {
